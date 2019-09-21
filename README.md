@@ -8,4 +8,4 @@
 ## Motivation
 `Ono has inspired me to build this`
 
-![Image ](https://imgur.com/a/GR9TB3J)
+![Imgur](https://i.imgur.com/0Lh4xRP.png)
