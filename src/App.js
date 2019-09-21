@@ -1,26 +1,30 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Header from './components/Header/Header'
+import SearchBar from './components/SearchBar/SearchBar'
+import Navigation from './components/Navigation/Navigation';
+import HotelsHomes from './components/HotelsHomes/HotelsHomes'
+import Ads from './components/Ads/Ads'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import Footer from './components/Footer/Footer'
+
+class App extends React.Component{
+  
+  render(){
+    return (
+      <div className="container-fluid px-0">
+        <Header />   
+        <span className="clearfix"></span> 
+        <Navigation />
+        <SearchBar />     
+        <Ads />
+        <HotelsHomes />
+        <br />
+        <br />
+        <br />
+        <Footer />
+      </div>
+    );  
+  }
 }
 
 export default App;
